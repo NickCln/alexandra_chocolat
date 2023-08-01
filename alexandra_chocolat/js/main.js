@@ -1,3 +1,4 @@
+
 const btnUp = {
 	el: document.querySelector('.sticky__arrow'),
 		show() {
@@ -22,3 +23,12 @@ const btnUp = {
 }
 
 btnUp.addEventListener();
+
+
+const menuBtn = document.querySelector('.menu__btn');
+const menu = document.querySelector('.menu__list');
+
+menuBtn.addEventListener('click', () => {
+	menu.classList.toggle('menu__list--active');
+});
+
