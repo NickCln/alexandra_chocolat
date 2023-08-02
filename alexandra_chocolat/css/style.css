@@ -44,14 +44,13 @@ a{
 .sticky__arrow {
 	width: 50px;
 	position: sticky;
-	top: 90%;
+	top: 85%;
 	left: 100%;
 	z-index: 11;
 }
 
 .sticky__arrow-btn {
 	position: relative;
-	left: 100%;
 	background-color: rgba(71, 64, 51, 0.1);
 	border-radius: 50px;
 	width: 50px;
@@ -637,6 +636,7 @@ a{
 	line-height: 33px;
 	letter-spacing: 0em;
 	text-align: center;
+	background-color: #EEEBE6;
 	white-space: nowrap;
 	color: #645B54;
 	position: absolute;
@@ -701,7 +701,7 @@ a svg #icon_3{
 	background-color: rgba(0, 0, 0, 0.8);
 	top: 0;
 	left: 0;
-	z-index: 15;
+	z-index: 50;
 	opacity: 0;
 	visibility: hidden;
 	overflow-y: auto;
@@ -1568,9 +1568,9 @@ a svg #icon_3{
 		letter-spacing: 0em;
 	}
 	.popup__close-icon {
-		top: -1px;
+		top: -2px;
 		right: 2px;
-		max-width: 13px;
+		max-width: 10px;
 	}
 	.popup__content-bottom {
 		display: flex;
